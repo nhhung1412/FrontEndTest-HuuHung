@@ -1,0 +1,24 @@
+.sidebar {
+  background-color: #191718;
+  height: 100%;
+}
+
+.sidebar ul li {
+  list-styled: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  padding: 14px 91px 11px 16px;
+  border-bottom: 1px solid #5c5c5c;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.sidebar ul li:hover {
+  background: #5c5c5c;
+  color: #fff;
+}
+
+.sidebar ul li:first-child {
+  color: #fff;
+}

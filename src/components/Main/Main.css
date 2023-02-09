@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo img {
+  width: 310px;
+  hight: 122px;
+}
+
+.desc {
+  width: auto;
+  min-height: 210px;
+  background: #efefef;
+  text-align: center;
+  margin: 30px 129px 0;
+}
+
+.desc h1 {
+  line-height: 21px;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 38px;
+}
+
+.desc p {
+  font-weight: 400;
+  line-height: 19px;
+  font-size: 16px;
+  margin: 18px 269px 38px;
+}
+
+.box {
+  display: flex;
+  margin: 40px 129px 0;
+}
+
+.box .box_item h2 {
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+
+.box .box_item img {
+  width: 128px;
+  height: 128px;
+  float: left;
+  margin-right: 16px;
+  margin-bottom: 6px;
+}
+
+.box_item {
+  margin-right: 50px;
+}
